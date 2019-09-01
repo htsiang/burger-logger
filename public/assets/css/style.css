@@ -7,3 +7,14 @@ body {
 #logo {
     height: 200px;
 }
+
+.uneatenList {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.eatenList {
+    list-style-type: none;
+    padding: 20px;
+    color: grey;
+}
