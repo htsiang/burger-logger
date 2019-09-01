@@ -4,11 +4,11 @@ const keys = require('./keys');
 
 // connection details
 const connection = mysql.createConnection({
-    host: 'locahost',
+    host: 'localhost',
     port: 3306,
     user: 'root',
     password: keys.password,
-    database: ""
+    database: "burger_db"
 });
 
 //make connection

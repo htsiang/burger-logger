@@ -38,6 +38,10 @@ function printQuestionMarks(num) {
       });
     },
     create: function (table, cols, vals, cb) {
+      console.log('columns');
+      console.log(cols);
+      console.log('values');
+      console.log(vals);
       var queryString = "INSERT INTO " + table;
   
       queryString += " (";
