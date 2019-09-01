@@ -1,6 +1,6 @@
 // set up mysql connection
 const mysql = require('mysql');
-const keys = require('./keys');
+// const keys = require('./keys'); // messing up my heroku deployment
 
 // set up variable to store connection
 let connection;
