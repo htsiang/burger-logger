@@ -3,7 +3,7 @@ const mysql = require('mysql');
 const keys = require('./keys');
 
 // set up variable to store connection
-const connecton;
+let connection;
 
 // database add on for Heroku
 if (process.env.JAWSDB_URL) {
